@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+body {
+    background: black;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+img {
+    width: 400px;
+}
+
+.description .text-of-desc {
+    width: 800px;
+    text-align: justify;
+    float: left;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+/* start */
+
+/* header */
+
+header {
+    background: url(../img/418b44c80460593830694c538f114eb5.jpeg) center no-repeat;
+    background-size: 100% 100%;
+    height: 1000px;
+}
+
+header .nav-bar .menu {
+    display: flex;
+    float: right;
+    margin-top: 40px;
+}
+
+header .nav-bar .menu li {
+    margin-right: 25px;
+}
+
+header .nav-bar .menu li a {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+header .description {
+    text-align: center;
+    padding-top: 200px;
+}
+
+header .description .title h1 {
+    font-size: 100px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+
+
+/*description section*/
+
+.description-section {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.description-section .text-desc {
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+/*history section*/
+
+.history-section {
+    padding-top: 100px;
+    position: relative;
+}
+
+.history-section .description h1 {
+    margin-bottom: 30px;
+    float: right;
+}
+
+.history-section .description {
+    float: right;
+    border: 1px solid rgb(6, 52, 174);
+    border-radius: 50px;
+    padding: 20px 30px 20px 100px;
+    background-color: rgb(6, 52, 174);
+    box-shadow: 10px 10px 200px rgb(6, 52, 174);
+}
+
+/*objects section*/
+
+.objects-section {
+    margin-top: 600px;
+}
+
+.objects-section .objects img {
+    border-radius: 50px;
+}
+
+.objects-section .objects .title-object {
+    margin-left: 45px;
+}
+
+.objects-section .objects .second-title {
+    margin-left: 35px;
+}
+
+.objects-section .objects .third-title {
+    margin-left: 30px;
+}
+
+.objects-section .objects {
+    margin-top: 30px;
+}
+
+.objects-section .objects .object {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(6, 52, 174);
+    background-color: rgb(6, 52, 174);
+    box-shadow: 10px 10px 200px rgb(6, 52, 174);
+    border-radius: 50px;
+    padding: 20px 30px 20px 20px;
+}
+
+.objects-section .objects .about-object {
+    font-size: 18px;
+    width: 800px;
+    text-align: justify; 
+}
+
+
+/*emergency*/
+
+.emergency-section {
+    margin-top: 100px;
+}
+
+.emergency-section .emergency-list {
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 23px;
+}
+
+.emergency-section .emergency-list li {
+    margin-bottom: 20px;
+    text-align: justify;
+    width: inherit;
+    list-style-type: disc;
+}
+
+/*footer*/
+
+footer {
+    margin-top: 100px;
+    padding: 30px 30px;
+    border-top: 1px solid white;
+}
+
+footer a {
+    color: white;
+}
